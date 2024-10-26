@@ -44,6 +44,8 @@ df.printSchema()
 # Define a row number window
 window_spec = Window.orderBy(F.lit(1))  # This assigns a row number for all rows, lit(1) orders arbitrarily
 
+#use select, filter index not equal to "0"
+
 # COMMAND ----------
 
 # Add a row number column
