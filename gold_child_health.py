@@ -109,7 +109,3 @@ plt.ylabel('Value', fontsize=10)
 
 # Display the plot
 plt.show()
-
-# COMMAND ----------
-
-
